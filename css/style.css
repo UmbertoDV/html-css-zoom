@@ -1,0 +1,24 @@
+/* General */
+main{
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: #000001;
+}
+footer{
+    background-color: #222222;
+    height: 100px;
+}
+.flex{
+    display: flex;
+}
+/* Details */
+.card{
+    width: calc(100% / 7 - 10px);
+    height: 130px;
+    background-color: red;
+}
+.partecipants.flex{
+    padding-top: 60px;
+    gap: 10px;
+    flex-wrap: wrap
+}
